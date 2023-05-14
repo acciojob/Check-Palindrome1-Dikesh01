@@ -1,5 +1,5 @@
 // complete the given function
-
+let str = "racecar";
 function palindrome(str){
 	let is_palindrome = true;
 	let i=0, j=str.length-1;
