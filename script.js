@@ -14,4 +14,6 @@ function palindrome(str){
 	}
 console.log(is_palindrome ? "Palindrome" : "Not a Palindrome");
 }
+palindrome(str)
+
 module.exports = palindrome
