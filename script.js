@@ -3,9 +3,9 @@
 function palindrome(str){
 	let lowerStr = str.toLowerCase();
 	let is_palindrome = true;
-	let i=0, j=str.length-1;
+	let i=0, j=lowerStr.length-1;
 	while(i<=j  && is_palindrome){
-		if(str[i]  != str[j]){
+		if(lowerStr[i]  != lowerStr[j]){
 			is_palindrome= false;
 			break;
 		}
@@ -14,4 +14,4 @@ function palindrome(str){
 	}
 console.log(is_palindrome ? "Palindrome" : "Not a Palindrome");
 }
-// module.exports = palindrome
+module.exports = palindrome
